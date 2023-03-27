@@ -1,0 +1,84 @@
+*{font-family:'Roboto Slab', serif;}
+h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    font-size: 70px;
+    margin:3vh;
+}
+div{
+    text-align: center;
+}
+#p01,#p02 {
+    font-size: 40px;
+    font-weight: 5000px;
+}
+span.st { margin-left: 38%;
+      margin-right: 15%;
+}
+input[type="text"],label
+{
+    font-size:16px;
+}
+label{
+    margin-left: 15px;
+    font-size: 18px;
+}
+
+.one,.two {margin-top: 10px;}
+#flag {
+    height:70px;
+
+    
+}
+img.st {
+    margin-left: 32%;
+    margin-right: 5%;
+}
+button.click {
+    display: block;
+    height: 50px;
+    margin: 10px auto;
+    cursor: pointer;
+    background-color: antiquewhite;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+}
+
+button.click {
+    padding: 0.6em 1.5em;
+    border: 2px solid #17C3B2;
+    position: relative;
+    overflow: hidden;
+    background-color: transparent;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 16px;
+    color: #ddd;
+    transition: .3s;
+    z-index: 1;
+    font-family: inherit;
+    color: #17C3B2;
+   }
+   
+   button.click::before {
+    content: '';
+    width: 0;
+    height: 300%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(45deg);
+    background: #17C3B2;
+    transition: .5s ease;
+    display: block;
+    z-index: -1;
+   }
+   
+   button.click:hover::before {
+    width: 105%;
+   }
+   
+   button.click:hover {
+    color: #111;
+   }
+   
